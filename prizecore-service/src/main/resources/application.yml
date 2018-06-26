@@ -1,0 +1,70 @@
+spring:
+  # Spring Datasource Config
+  datasource:
+    druid:
+      url: jdbc:mysql://192.168.1.45:3306/prizecore_test?characterEncoding=UTF-8
+      username: prizecore_test
+      password: 123456
+      driver-class-name: com.mysql.jdbc.Driver
+      initial-size: 1
+      min-idle: 1
+      max-active: 200
+      max-wait: 60000
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      validation-query: "SELECT 'x'"
+      test-while-idle: true
+      test-on-borrow: false
+      test-on-return: false
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      filters: stat
+  application:
+    name: dubbo-provider-prizecore-service
+
+server:
+  port: 9090
+management:
+  endpoint:
+    dubbo-configs:
+      enabled: true
+    dubbo:
+      enabled: true
+    dubbo-services:
+      enabled: true
+    dubbo-properties:
+      enabled: true
+    dubbo-shutdown:
+      enabled: true
+    dubbo-references:
+      enabled: true
+  health:
+    dubbo:
+      status:
+        defaults: memory
+        extras: load,threadpool
+dubbo:
+  registry:
+    address: 192.168.1.46:2181,192.168.1.45:2181,192.168.1.41:2181
+    protocol: zookeeper
+    timeout: 15000
+  protocol:
+    port: 12345
+    name: dubbo
+    status: server
+    serialization: fastjson
+    threads: 2000
+  application:
+    qos:
+      port: 22222
+      enable: true
+    name: dubbo-provider-prizecore-service
+    id: dubbo-provider-prizecore-service
+  scan:
+    basePackages: com.fulihui.prizecore.service
+
+prizecore:
+  service:
+    version: 1.0.0
+
+
