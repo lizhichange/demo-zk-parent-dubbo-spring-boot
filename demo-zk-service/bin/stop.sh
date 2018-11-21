@@ -1,5 +1,5 @@
 
-APP_NAME=duoduoke-service
+APP_NAME=demo-zk-service
 
 
 tpid=`ps -ef  | grep java |grep  $APP_NAME|grep -v grep|grep -v kill|awk '{print $2}'`
