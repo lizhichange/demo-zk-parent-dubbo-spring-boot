@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: dubbo-consumer-demo-zk
+
+server:
+  port: 8080
+
+
+endpoints:
+  dubbo:
+    enabled: true
+
+
+management:
+  server:
+    port: 8081
+  endpoint:
+    dubbo-configs:
+      enabled: true
+    dubbo:
+      enabled: true
+    dubbo-services:
+      enabled: true
+    dubbo-properties:
+      enabled: true
+    dubbo-shutdown:
+      enabled: true
+    dubbo-references:
+      enabled: true
+  health:
+    dubbo:
+      status:
+        defaults: memory
+dubbo:
+  registry:
+    address: 192.168.1.46:2181,192.168.1.45:2181,192.168.1.41:2181
+    protocol: zookeeper
+    timeout: 15000
+  protocol:
+    port: 12345
+    name: dubbo
+  application:
+    name: dubbo-consumer-demo-zk-facade
+    id: dubbo-consumer-demo-zk-facade
+  qos:
+    port: 22223
+demo:
+  service:
+    version: 1.0.0
