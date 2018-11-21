@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c81ce14b-2ffd-4e46-aa3a-93b3d9dcc485" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-facade/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-facade/prizecore-facade.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-facade/src/main/java/com/fulihui/prizecore/facade/DemoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-facade/src/main/java/com/fulihui/prizecore/response/TBD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-parent-dubbo-spring-boot.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-service/config/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-service/prizecore-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-service/src/main/java/com/fulihui/prizecore/ServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-service/src/main/java/com/fulihui/prizecore/UserIdAlgorithm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-service/src/main/java/com/fulihui/prizecore/config/DubboRegistryConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-service/src/main/java/com/fulihui/prizecore/service/DefaultDemoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-service/src/main/resources/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-service/src/test/java/com/fulihui/prizecore/ApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-web/config/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-web/prizecore-web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-web/src/main/java/com/fulihui/prizecore/web/WebApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-web/src/main/java/com/fulihui/prizecore/web/controller/DemoConsumerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-web/src/main/java/com/fulihui/prizecore/web/controller/WebController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-web/src/test/java/com/fulihui/prizecore/web/controller/DemoConsumerControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-web/src/test/java/com/fulihui/prizecore/web/controller/WebControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/prizecore-web/src/test/resources/application.yml" beforeDir="false" />
-    </list>
+    <list default="true" id="c81ce14b-2ffd-4e46-aa3a-93b3d9dcc485" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/demo-zk-facade/target/" />
     <ignored path="$PROJECT_DIR$/demo-zk-web/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,117 +16,41 @@
     <session id="-1194469671">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
           <entry key="xml" value="1" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
           <entry key="XML" value="1" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="txt" value="1" />
           <entry key="yml" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="47" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-zk-facade/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-zk-facade/src/main/java/com/fulihui/demo/zk/facade/DemoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo-zk-service/config/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-zk-web/src/main/java/com/fulihui/demo/zk/web/WebApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-zk-web/src/main/java/com/fulihui/demo/zk/web/controller/DemoConsumerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-zk-web/src/main/java/com/fulihui/demo/zk/web/controller/WebController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-zk-web/config/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-zk-service/src/main/java/com/fulihui/demo/zk/UserIdAlgorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-zk-service/src/main/java/com/fulihui/demo/zk/config/DubboRegistryConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -221,72 +118,6 @@
               <item name="demo-zk-parent-dubbo-spring-boot" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo-zk-parent-dubbo-spring-boot" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="demo-zk-parent-dubbo-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-zk-parent-dubbo-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-zk-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-zk-parent-dubbo-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-zk-parent-dubbo-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-zk-service" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-zk-parent-dubbo-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-zk-parent-dubbo-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-zk-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-zk-parent-dubbo-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-zk-parent-dubbo-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-zk-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-zk-parent-dubbo-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-zk-parent-dubbo-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-zk-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-zk-parent-dubbo-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-zk-parent-dubbo-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-zk-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-zk-parent-dubbo-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-zk-parent-dubbo-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-zk-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zk" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-zk-parent-dubbo-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-zk-parent-dubbo-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-zk-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo-zk-parent-dubbo-spring-boot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo-zk-parent-dubbo-spring-boot" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-zk-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -296,7 +127,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542782496098" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542782545191" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -350,11 +181,18 @@
       <option name="presentableId" value="Default" />
       <updated>1542782255692</updated>
     </task>
+    <task id="LOCAL-00001" summary="d">
+      <created>1542782471313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542782471313</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1856" height="1078" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -369,10 +207,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run with VisualVM" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32934782" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32934782" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,6 +229,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="d" />
+    <option name="LAST_COMMIT_MESSAGE" value="d" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/demo-zk-facade/pom.xml">
@@ -441,14 +284,21 @@
     <entry file="file://$PROJECT_DIR$/demo-zk-service/src/main/java/com/fulihui/demo/zk/config/DubboRegistryConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo-zk-service/config/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
+        <state relative-caret-position="649">
           <caret line="87" column="37" selection-start-line="87" selection-start-column="37" selection-end-line="87" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-zk-service/src/main/java/com/fulihui/demo/zk/ServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
         </state>
       </provider>
     </entry>
