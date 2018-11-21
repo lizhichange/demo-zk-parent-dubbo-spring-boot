@@ -47,7 +47,7 @@ sharding:
 
 
 server:
-  port: 9090
+  port: 8090
 management:
   endpoint:
     dubbo-configs:
