@@ -28,7 +28,7 @@ import com.fulihui.demo.zk.facade.DemoService;
  * @since 1.0.0
  */
 @Service(
-        version = "${prizecore.service.version}",
+        version = "${demo.service.version}",
         timeout = 15000
 )
 public class DefaultDemoService implements DemoService {

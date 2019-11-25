@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @SpringBootApplication
 @EnableScheduling
 @ComponentScan(basePackages = {"com.fulihui"})
-@MapperScan(basePackages = {"com.fulihui.prizecore.dal.dao"})
+@MapperScan(basePackages = {"com.fulihui.demo.zk.dal.dao"})
 @EnableTransactionManagement
 public class ServiceApplication {
 

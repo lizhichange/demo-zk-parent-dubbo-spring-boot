@@ -33,7 +33,7 @@ management:
         defaults: memory
 dubbo:
   registry:
-    address: 192.168.1.46:2181,192.168.1.45:2181,192.168.1.41:2181
+    address: 127.0.0.1:2181
     protocol: zookeeper
     timeout: 15000
   protocol:
