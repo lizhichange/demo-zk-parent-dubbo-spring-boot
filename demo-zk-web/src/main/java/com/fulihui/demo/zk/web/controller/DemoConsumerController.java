@@ -19,6 +19,9 @@ package com.fulihui.demo.zk.web.controller;
 
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.fulihui.demo.zk.facade.DemoService;
+import org.near.servicesupport.result.TSingleResult;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -37,9 +40,18 @@ public class DemoConsumerController {
             , check = false)
     private DemoService demoService;
 
+    private final  static  Logger LOGGER= LoggerFactory.getLogger(DemoConsumerController.class);
     @RequestMapping("/sayHello")
     public String sayHello(@RequestParam String name) {
         return demoService.sayHello(name);
+    }
+
+
+    @RequestMapping("/say")
+    public String say(@RequestParam String name) {
+        TSingleResult<String> say = demoService.say(name);
+        LOGGER.info("say:{}",say);
+        return say.getValue();
     }
 
 }

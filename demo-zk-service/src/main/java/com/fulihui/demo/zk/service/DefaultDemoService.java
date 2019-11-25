@@ -19,6 +19,8 @@ package com.fulihui.demo.zk.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.fulihui.demo.zk.facade.DemoService;
+import org.near.servicesupport.result.ResultBuilder;
+import org.near.servicesupport.result.TSingleResult;
 
 /**
  * Default {@link DemoService}
@@ -36,6 +38,11 @@ public class DefaultDemoService implements DemoService {
     @Override
     public String sayHello(String name) {
         return "Hello, " + name + " (from Spring Boot)";
+    }
+
+    @Override
+    public TSingleResult<String> say(String name) {
+        return ResultBuilder.succTSingle(name);
     }
 
 }
