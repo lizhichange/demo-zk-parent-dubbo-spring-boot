@@ -17,9 +17,7 @@
         <module>demo-zk-facade</module>
         <module>demo-zk-service</module>
         <module>demo-zk-web</module>
-        <module>near-service-support</module>
-        <module>near-toolkit</module>
-        <module>near-webmvc-support</module>
+
     </modules>
 
 
@@ -206,6 +204,44 @@
 
     </dependencies>
 
+
+
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>http://nexus.wljun.cn/nexus/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <url>http://nexus.wljun.cn/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+
+
+    <repositories>
+        <repository>
+            <id>releases</id>
+            <url>http://nexus.wljun.cn/nexus/content/repositories/releases/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>snapshots</id>
+            <url>http://nexus.wljun.cn/nexus/content/repositories/snapshots/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
 
 
