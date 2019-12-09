@@ -8,9 +8,9 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
-    <name>demo-zk-parent-dubbo-spring-boot</name>
+    <name>demo-zk-parent-spring-boot</name>
 
-    <description>demo-zk-parent-dubbo-spring-boot project for Spring Boot</description>
+    <description>demo-zk-parent-spring-boot project for Spring Boot</description>
 
 
     <modules>
