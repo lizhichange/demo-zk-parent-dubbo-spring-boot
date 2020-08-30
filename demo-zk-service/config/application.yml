@@ -1,46 +1,13 @@
 spring:
+  profiles:
+    active: shard
   application:
     name: dubbo-provider-demo-zk-service
 
 
 mybatis:
-  typeAliasesPackage: com.fulihui.demo.zk.dal.dataobj
+  typeAliasesPackage: com.fulihui.demo.zk.dal.dao
   mapperLocations: classpath*:sqlmap/*.xml
-
-
-
-
-sharding:
-  jdbc:
-    datasource:
-      ds0:
-        type: com.alibaba.druid.pool.DruidDataSource
-        driver-class-name: com.mysql.jdbc.Driver
-        url: jdbc:mysql://127.0.0.1:3306/nacos?characterEncoding=UTF-8
-        username: root
-        password: root
-        initial-size: 1
-        min-idle: 1
-        max-active: 200
-        max-wait: 60000
-        time-between-eviction-runs-millis: 60000
-        min-evictable-idle-time-millis: 300000
-        validation-query: "SELECT 'x'"
-        test-while-idle: true
-        test-on-borrow: false
-        test-on-return: false
-        pool-prepared-statements: true
-        max-pool-prepared-statement-per-connection-size: 20
-      names: ds0
-    config:
-      sharding:
-        tables:
-          order_info:
-            table-strategy:
-              standard:
-                sharding-column: custom_parameters
-                precise-algorithm-class-name: com.fulihui.demo.zk.UserIdAlgorithm
-            actual-data-nodes: ds0.order_info_$->{0..9}
 
 
 
@@ -90,5 +57,6 @@ dubbo:
 demo:
   service:
     version: 1.0.0
+
 
 
