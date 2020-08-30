@@ -24,7 +24,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.3.RELEASE</version>
+        <version>2.3.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -60,22 +60,7 @@
                 <artifactId>demo-zk-facade</artifactId>
                 <version>1.0.0-SNAPSHOT</version>
             </dependency>
-            <dependency>
-                <groupId>org.near</groupId>
-                <artifactId>near-toolkit</artifactId>
-                <version>1.0.0</version>
-            </dependency>
 
-            <dependency>
-                <groupId>org.near</groupId>
-                <artifactId>near-service-support</artifactId>
-                <version>1.0.0</version>
-            </dependency>
-            <dependency>
-                <groupId>org.near</groupId>
-                <artifactId>near-webmvc-support</artifactId>
-                <version>1.0.0</version>
-            </dependency>
 
 
             <dependency>
@@ -88,7 +73,6 @@
                 <artifactId>springfox-swagger-ui</artifactId>
                 <version>2.2.2</version>
             </dependency>
-
 
 
             <!-- Mybatis -->
@@ -205,8 +189,6 @@
     </dependencies>
 
 
-
-
     <distributionManagement>
         <repository>
             <id>releases</id>
@@ -217,7 +199,6 @@
             <url>http://nexus.wljun.cn/nexus/content/repositories/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
-
 
 
     <repositories>
@@ -242,8 +223,6 @@
             </snapshots>
         </repository>
     </repositories>
-
-
 
 
 </project>

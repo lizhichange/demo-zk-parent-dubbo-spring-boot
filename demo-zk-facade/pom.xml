@@ -12,10 +12,7 @@
         <version>1.0.0</version>
     </parent>
     <dependencies>
-        <dependency>
-            <groupId>org.near</groupId>
-            <artifactId>near-service-support</artifactId>
-        </dependency>
+
     </dependencies>
 
 

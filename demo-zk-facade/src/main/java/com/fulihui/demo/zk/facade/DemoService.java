@@ -15,7 +15,6 @@ package com.fulihui.demo.zk.facade;/*
  * limitations under the License.
  */
 
-import org.near.servicesupport.result.TSingleResult;
 
 /**
  * Demo Service interface
@@ -27,5 +26,5 @@ public interface DemoService {
 
     String sayHello(String name);
 
-    TSingleResult<String> say(String name);
+
 }
